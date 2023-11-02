@@ -1,0 +1,14 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "Data Science Exemplar"
+      href: data_science_exemplar.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<jwc2177@cumc.columbia.edu>
+    - icon: fa-github fa-lg
+      href: https://github.com/JakeWColdiron
+output:
+  html_document:
+    theme: journal

@@ -1,0 +1,89 @@
+---
+title: "Data Science"
+output: 
+  html_document:
+    code_folding: hide
+    toc: true
+    toc_float: true
+---
+
+BIOSTATISTICS is the nexus of two distinct disciplines - mathematical sciences and data science. The mathematical sciences forms the theory of biostatistics and enables meaningful conlusions to be drawn, and data science is a tool which translates real-world noise into useful guidance for decision-makers and policy experts. In essence, in the journey of biostatistics, math is the GPS and data science in the vehicle.
+
+The following are a few examples of the work I've done in the world of data science.
+
+### Instacart and Human Behavior
+
+```{r libraries and output setup}
+library(tidyverse)
+library(plotly)
+library(p8105.datasets)
+```
+
+```{r import the data}
+#
+#view(instacart_df)
+
+data("instacart")
+
+instacart_df = 
+  instacart %>% 
+  as_tibble()
+
+instacart_df
+```
+
+Let's investigate the impulsive of humans by focusing on at the hour at which alcohol orders are placed.
+
+```{r filtering the data}
+instacart_impuslivity_df = 
+  
+  instacart_df %>% 
+  
+  select(order_hour_of_day, product_name, aisle, department, add_to_cart_order, days_since_prior_order) %>% 
+  
+  filter(department == "alcohol") %>% 
+  
+   mutate(aisle = recode(aisle,
+                        "beers coolers" = "Beer",
+                        "red wines" = "Red Wine",
+                        "specialty wines champagnes" = "Specialty Wines and Champagnes",
+                        "spirits" = "Spirits",
+                        "white wines" = "White Wine"
+                        )
+         ) 
+
+instacart_impuslivity_df
+```
+
+```{r}
+instacart_impuslivity_df %>%
+  
+  mutate(text_label = str_c("Product: ", product_name, "\nDays Since Prior Order: ", days_since_prior_order)) %>% 
+  
+  plot_ly(
+          x = ~order_hour_of_day, 
+          y = ~add_to_cart_order, 
+          color = ~aisle, 
+          text = ~text_label, 
+          alpha = 0.35,
+          type = "scatter"
+          )
+```
+
+```{r}
+instacart_impuslivity_boxplot = 
+  
+  instacart_impuslivity_df %>% 
+
+  plot_ly(
+          x = ~days_since_prior_order, 
+          y = ~aisle,
+          color = ~aisle,
+          type = "box"
+          )
+
+instacart_impuslivity_boxplot
+```
+
+[Return Home](index.html)
+

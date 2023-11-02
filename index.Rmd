@@ -1,0 +1,49 @@
+---
+title: "Jake William Coldiron"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+![](jwc_headshot_01_sub_100_kb copy.jpg)
+
+# Introduction
+
+JAKE WILLIAM COLDIRON is a rising young professional in global and public health. He completed a Bachelor of Science in Public Health (BSPH) with minors in Mathematics and Sociology at Georgia State University, as well as EMT Certification at the Grady EMS Academy. In addition to his education, Jake W. Coldiron worked at two positions within the Georgia State University School of Public Health. At his first position, he assisted the university's COVID response by creating physical and digital informational media and speaks to students about COVID, COVID safety, and vaccines. At his second position, he worked as a research assistant for an NIH-funded study conducting interviews, statistical analyses, and manuscript preparation. 
+
+Finally, he continues to serve as a poll manager with a particular emphasis on helping English-limited or Spanish-only voters. His three main areas of interest are biostatistics, perinatal transmission of disease, and chronic infectious diseases ultimately aims to serve as both a researcher and clinician. 
+
+Jake is currently a student a Columbia University at the Mailman School of Public Health pursing a Masters of Science in Biostatistics with a concentration in Theory and Methods. 
+
+In Jake's free time, he volunteers as a local scouting leader and trainer.
+
+# Academic Highlights
+
+The following are highlights from Jake's academic profile.
+
+## Education 
+
+1. [Current] Master of Science (MS) in Biostatistics at Columbia University
+
+2. Bachelor of Science in Public Health (BSPH) at Georiga State University 
+
+## Publications 
+
+1. Armstrong-Mensah, E. A., Ebiringa, D.-P. ., Whitfield, K., & Coldiron, J. (2021). Genital Chlamydia 	Trachomatis Infection: Prevalence, Risk Factors and Adverse Pregnancy and 	Birth Outcomes in Children and Women in sub-Saharan Africa. International 	Journal of Maternal and Child Health and AIDS (IJMA), 10(2), 251–257. 	https://doi.org/10.21106/ijma.523 
+
+2. Gibson, L. ., Dua, A. A., Coldiron, J. ., Peters, A. ., Lamsal, S. ., Edeh, G.-E., Masha, D. ., & Armstrong-	Mensah , E. (2022). Individual and Community Level Factors Related to 	Contraceptive Access, Family Planning, and Reproductive Health Challenges 	Among Women in Kumasi, Ghana: A Field Study. International Journal of 	Translational Medical Research and Public Health, 6(1). 	https://doi.org/10.21106/ijtmrph.393 
+
+## Presentations
+
+1. Coldiron, J. Understanding Department of Juvenile Justice Stakeholder’s Attitudes Towards a Yoga Intervention for Detained Youth with a History of Trauma. Presented, American Public Health Association Annual Conference and Expo, Boston, United States of America, November 2022.
+
+2. Coldiron, J., Ebring, D., Whitfield, K., Genital Chlamydia Trachomatis Infection: Prevalence, Risk Factors and Adverse Pregnancy and Birth Outcomes in Children and Women in sub-Saharan Africa. Presented, MeTa Series, Atlanta, United States of America, March 2023
+
+3. How Students Can Protect Themselves: COVID-19 Info Module -	In collaboration with the Georgia State University Campus of Care Committee, Ambassadors created three informational videos to share with students on campus. This video covers the topic 'How Students Can Protect Themselves', and demonstrates how to navigate a wide variety of situations students may encounter on campus.
+
+# Curriculum Vitae
+
+![](20230715_jake_william_coldiron_cv.pdf)
+
+[Page 2](page2.html)
