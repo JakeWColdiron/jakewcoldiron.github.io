@@ -11,4 +11,4 @@ navbar:
       href: https://github.com/JakeWColdiron
 output:
   html_document:
-    theme: journal
+    theme: flatly
